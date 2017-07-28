@@ -1,0 +1,537 @@
+diff -r barotropicCompressibilityModel/barotropicCompressibilityModel/barotropicCompressibilityModel.dep /home/jabo/OpenFOAM/OpenFOAM-2.3.x/src/thermophysicalModels/barotropicCompressibilityModel/barotropicCompressibilityModel/barotropicCompressibilityModel.dep
+152,156d151
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuList.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuConfig.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuListI.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuList.C
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuListIO.C
+189,200d183
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuField.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldFunctions.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldFunctionsM.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/undefgpuFieldFunctionsM.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuField.C
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldMapper.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldM.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/unitConversion.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/mathematicalConstants.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldFunctions.C
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldReuseFunctions.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldFunctionsM.C
+235d217
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/tensorI.H
+245,268d226
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Time.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimePaths.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/objectRegistry.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReList.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/objectRegistryTemplates.C
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stringListOps.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReListMatcher.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReListMatcherI.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stringListOpsTemplates.C
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/FIFOStack.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/clock.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/cpuTime.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimeState.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Switch.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/instantList.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/instant.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dlLibraryTable.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dlLibraryTableTemplates.C
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/functionObjectList.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/functionObject.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SHA1Digest.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/fileMonitor.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/sigWriteNow.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/sigStopAtWriteNow.H
+296a255,278
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Time.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimePaths.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/objectRegistry.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReList.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/objectRegistryTemplates.C
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stringListOps.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReListMatcher.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReListMatcherI.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stringListOpsTemplates.C
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/FIFOStack.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/clock.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/cpuTime.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimeState.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Switch.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/instantList.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/instant.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dlLibraryTable.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dlLibraryTableTemplates.C
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/functionObjectList.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/functionObject.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SHA1Digest.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/fileMonitor.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/sigWriteNow.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/sigStopAtWriteNow.H
+325,329d306
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/facegpuList.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceData.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceListFwd.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubList.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubListI.H
+331,343d307
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/pointHit.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListListOps.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListListOps.C
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/triPointRef.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/triangle.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Random.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cachedRandom.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cachedRandomI.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cachedRandomTemplates.C
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/triangleI.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceDataI.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceDataTemplates.C
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/facegpuListFwd.H
+361a326,331
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceListFwd.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubList.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubListI.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/pointHit.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListListOps.H
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListListOps.C
+393,394d362
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cellData.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cellDataI.H
+400,401d367
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuIOField.H
+< barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuIOField.C
+433a400
+> barotropicCompressibilityModel/barotropicCompressibilityModel.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/mathematicalConstants.H
+diff -r barotropicCompressibilityModel/barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep /home/jabo/OpenFOAM/OpenFOAM-2.3.x/src/thermophysicalModels/barotropicCompressibilityModel/barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep
+152,156d151
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuList.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuConfig.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuListI.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuList.C
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuListIO.C
+189,200d183
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuField.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldFunctions.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldFunctionsM.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/undefgpuFieldFunctionsM.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuField.C
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldMapper.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldM.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/unitConversion.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/mathematicalConstants.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldFunctions.C
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldReuseFunctions.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldFunctionsM.C
+235d217
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/tensorI.H
+245,268d226
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Time.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimePaths.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/objectRegistry.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReList.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/objectRegistryTemplates.C
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stringListOps.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReListMatcher.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReListMatcherI.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stringListOpsTemplates.C
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/FIFOStack.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/clock.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/cpuTime.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimeState.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Switch.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/instantList.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/instant.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dlLibraryTable.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dlLibraryTableTemplates.C
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/functionObjectList.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/functionObject.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SHA1Digest.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/fileMonitor.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/sigWriteNow.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/sigStopAtWriteNow.H
+296a255,278
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Time.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimePaths.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/objectRegistry.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReList.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/objectRegistryTemplates.C
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stringListOps.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReListMatcher.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReListMatcherI.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stringListOpsTemplates.C
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/FIFOStack.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/clock.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/cpuTime.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimeState.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Switch.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/instantList.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/instant.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dlLibraryTable.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dlLibraryTableTemplates.C
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/functionObjectList.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/functionObject.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SHA1Digest.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/fileMonitor.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/sigWriteNow.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/sigStopAtWriteNow.H
+325,329d306
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/facegpuList.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceData.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceListFwd.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubList.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubListI.H
+331,343d307
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/pointHit.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListListOps.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListListOps.C
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/triPointRef.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/triangle.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Random.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cachedRandom.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cachedRandomI.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cachedRandomTemplates.C
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/triangleI.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceDataI.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceDataTemplates.C
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/facegpuListFwd.H
+361a326,331
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceListFwd.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubList.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubListI.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/pointHit.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListListOps.H
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListListOps.C
+393,394d362
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cellData.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cellDataI.H
+400,401d367
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuIOField.H
+< barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuIOField.C
+433a400
+> barotropicCompressibilityModel/barotropicCompressibilityModelNew.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/mathematicalConstants.H
+diff -r barotropicCompressibilityModel/Chung/Chung.dep /home/jabo/OpenFOAM/OpenFOAM-2.3.x/src/thermophysicalModels/barotropicCompressibilityModel/Chung/Chung.dep
+153,157d152
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuList.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuConfig.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuListI.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuList.C
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuListIO.C
+190,201d184
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuField.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldFunctions.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldFunctionsM.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/undefgpuFieldFunctionsM.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuField.C
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldMapper.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldM.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/unitConversion.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/mathematicalConstants.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldFunctions.C
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldReuseFunctions.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldFunctionsM.C
+236d218
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/tensorI.H
+246,269d227
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Time.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimePaths.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/objectRegistry.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReList.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/objectRegistryTemplates.C
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stringListOps.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReListMatcher.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReListMatcherI.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stringListOpsTemplates.C
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/FIFOStack.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/clock.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/cpuTime.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimeState.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Switch.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/instantList.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/instant.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dlLibraryTable.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dlLibraryTableTemplates.C
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/functionObjectList.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/functionObject.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SHA1Digest.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/fileMonitor.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/sigWriteNow.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/sigStopAtWriteNow.H
+297a256,279
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Time.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimePaths.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/objectRegistry.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReList.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/objectRegistryTemplates.C
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stringListOps.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReListMatcher.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReListMatcherI.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stringListOpsTemplates.C
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/FIFOStack.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/clock.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/cpuTime.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimeState.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Switch.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/instantList.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/instant.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dlLibraryTable.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dlLibraryTableTemplates.C
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/functionObjectList.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/functionObject.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SHA1Digest.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/fileMonitor.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/sigWriteNow.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/sigStopAtWriteNow.H
+326,330d307
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/facegpuList.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceData.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceListFwd.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubList.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubListI.H
+332,344d308
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/pointHit.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListListOps.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListListOps.C
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/triPointRef.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/triangle.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Random.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cachedRandom.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cachedRandomI.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cachedRandomTemplates.C
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/triangleI.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceDataI.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceDataTemplates.C
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/facegpuListFwd.H
+362a327,332
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceListFwd.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubList.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubListI.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/pointHit.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListListOps.H
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListListOps.C
+394,395d363
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cellData.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cellDataI.H
+401,402d368
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuIOField.H
+< Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuIOField.C
+434a401
+> Chung/Chung.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/mathematicalConstants.H
+diff -r barotropicCompressibilityModel/linear/linear.dep /home/jabo/OpenFOAM/OpenFOAM-2.3.x/src/thermophysicalModels/barotropicCompressibilityModel/linear/linear.dep
+153,157d152
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuList.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuConfig.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuListI.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuList.C
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuListIO.C
+190,201d184
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuField.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldFunctions.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldFunctionsM.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/undefgpuFieldFunctionsM.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuField.C
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldMapper.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldM.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/unitConversion.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/mathematicalConstants.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldFunctions.C
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldReuseFunctions.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldFunctionsM.C
+236d218
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/tensorI.H
+246,269d227
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Time.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimePaths.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/objectRegistry.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReList.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/objectRegistryTemplates.C
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stringListOps.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReListMatcher.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReListMatcherI.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stringListOpsTemplates.C
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/FIFOStack.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/clock.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/cpuTime.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimeState.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Switch.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/instantList.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/instant.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dlLibraryTable.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dlLibraryTableTemplates.C
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/functionObjectList.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/functionObject.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SHA1Digest.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/fileMonitor.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/sigWriteNow.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/sigStopAtWriteNow.H
+297a256,279
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Time.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimePaths.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/objectRegistry.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReList.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/objectRegistryTemplates.C
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stringListOps.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReListMatcher.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReListMatcherI.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stringListOpsTemplates.C
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/FIFOStack.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/clock.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/cpuTime.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimeState.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Switch.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/instantList.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/instant.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dlLibraryTable.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dlLibraryTableTemplates.C
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/functionObjectList.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/functionObject.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SHA1Digest.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/fileMonitor.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/sigWriteNow.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/sigStopAtWriteNow.H
+326,330d307
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/facegpuList.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceData.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceListFwd.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubList.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubListI.H
+332,344d308
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/pointHit.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListListOps.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListListOps.C
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/triPointRef.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/triangle.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Random.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cachedRandom.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cachedRandomI.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cachedRandomTemplates.C
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/triangleI.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceDataI.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceDataTemplates.C
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/facegpuListFwd.H
+362a327,332
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceListFwd.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubList.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubListI.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/pointHit.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListListOps.H
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListListOps.C
+394,395d363
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cellData.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cellDataI.H
+401,402d368
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuIOField.H
+< linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuIOField.C
+434a401
+> linear/linear.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/mathematicalConstants.H
+Only in /home/jabo/OpenFOAM/OpenFOAM-2.3.x/src/thermophysicalModels/barotropicCompressibilityModel/Make: linux64GccDPOpt
+Only in barotropicCompressibilityModel/Make: linux64NvccDPOpt
+diff -r barotropicCompressibilityModel/Wallis/Wallis.dep /home/jabo/OpenFOAM/OpenFOAM-2.3.x/src/thermophysicalModels/barotropicCompressibilityModel/Wallis/Wallis.dep
+153,157d152
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuList.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuConfig.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuListI.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuList.C
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuListIO.C
+190,201d184
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuField.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldFunctions.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldFunctionsM.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/undefgpuFieldFunctionsM.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuField.C
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldMapper.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldM.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/unitConversion.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/mathematicalConstants.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldFunctions.C
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldReuseFunctions.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuFieldFunctionsM.C
+236d218
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/tensorI.H
+246,269d227
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Time.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimePaths.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/objectRegistry.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReList.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/objectRegistryTemplates.C
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stringListOps.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReListMatcher.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReListMatcherI.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stringListOpsTemplates.C
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/FIFOStack.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/clock.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/cpuTime.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimeState.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Switch.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/instantList.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/instant.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dlLibraryTable.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dlLibraryTableTemplates.C
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/functionObjectList.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/functionObject.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SHA1Digest.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/fileMonitor.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/sigWriteNow.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/sigStopAtWriteNow.H
+297a256,279
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Time.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimePaths.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/objectRegistry.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReList.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/objectRegistryTemplates.C
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stringListOps.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReListMatcher.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordReListMatcherI.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stringListOpsTemplates.C
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/FIFOStack.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/clock.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/cpuTime.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimeState.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Switch.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/instantList.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/instant.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dlLibraryTable.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dlLibraryTableTemplates.C
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/functionObjectList.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/functionObject.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SHA1Digest.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/fileMonitor.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/sigWriteNow.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/sigStopAtWriteNow.H
+326,330d307
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/facegpuList.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceData.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceListFwd.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubList.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubListI.H
+332,344d308
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/pointHit.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListListOps.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListListOps.C
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/triPointRef.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/triangle.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Random.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cachedRandom.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cachedRandomI.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cachedRandomTemplates.C
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/triangleI.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceDataI.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceDataTemplates.C
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/facegpuListFwd.H
+362a327,332
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceListFwd.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubList.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubListI.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/pointHit.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListListOps.H
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListListOps.C
+394,395d363
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cellData.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/cellDataI.H
+401,402d368
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuIOField.H
+< Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/gpuIOField.C
+434a401
+> Wallis/Wallis.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/mathematicalConstants.H
